@@ -1,4 +1,21 @@
-const correctAnswers = ['c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c'];
+const correctAnswers = [
+  "C", // Pergunta 1
+  "C", // Pergunta 2
+  "D", // Pergunta 3
+  "C", // Pergunta 4
+  "B", // Pergunta 5
+  "B", // Pergunta 6
+  "C", // Pergunta 7
+  "B", // Pergunta 8
+  "C", // Pergunta 9
+  "B", // Pergunta 10
+  "D", // Pergunta 11
+  "B", // Pergunta 12
+  "C", // Pergunta 13
+  "B", // Pergunta 14
+  "B"  // Pergunta 15
+]
+
 
 const form = document.querySelector('form');
 const popup = document.getElementById('resultPopup');
