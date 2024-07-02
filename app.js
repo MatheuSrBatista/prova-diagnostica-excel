@@ -34,16 +34,16 @@ form.addEventListener('submit', event => {
     let knowledgeLevel;
     if (userPoints >= 0 && userPoints <= 5) {
         knowledgeLevel = 'Conhecimento básico';
-        document.querySelector('.recomendation').textContent = `Recomendação: Reforce o estudo de Informática Excel`;
+        document.querySelector('.recomendation').textContent = `Recomendação: Excel 2021, Excel Avançado 1 e Excel avançado 2`;
     } else if (userPoints >= 6 && userPoints <= 10) {
         knowledgeLevel = 'Conhecimento intermediário';
-        document.querySelector('.recomendation').textContent = `Recomendação: Continue estudando para aprimorar seus conhecimentos em Excel`;
+        document.querySelector('.recomendation').textContent = `Recomendação: Excel 2021, Excel Avançado 1 e Excel avançado 2`;
     } else if (userPoints >= 11 && userPoints < 15) {
         knowledgeLevel = 'Conhecimento avançado';
-        document.querySelector('.recomendation').textContent = `Recomendação: Parabéns pelo conhecimento avançado em Microsoft Excel!`;
+        document.querySelector('.recomendation').textContent = `Recomendação: Excel 2021, Excel Avançado 1 e Excel avançado 2`;
     } else if (userPoints === 15) {
         knowledgeLevel = 'Pacote office';
-        document.querySelector('.recomendation').textContent = `Recomendação: Sua pontuação é excelente! Continue explorando o Pacote Office`;
+        document.querySelector('.recomendation').textContent = `Recomendação:  Excel 2021, Excel Avançado 1 e Excel avançado 2`;
     }
 
     let recomendationClass;
