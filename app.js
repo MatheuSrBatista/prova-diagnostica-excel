@@ -62,7 +62,7 @@ form.addEventListener('submit', event => {
         knowledgeLevel = 'Pacote office';
         document.querySelector('.recomendation').textContent = `Recomendação:  Excel 2021, Excel Avançado 1 e Excel avançado 2`;
     }
-
+    console.log(userPoints)
     let recomendationClass;
     switch (knowledgeLevel) {
         case 'Conhecimento básico':
